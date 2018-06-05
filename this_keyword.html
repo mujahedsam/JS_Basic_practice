@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this keyword</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	 function emp(name,lastn,sal,id){
+	 	this.firstname=name;
+	 	this.lastname=lastn;
+	 	this.salary=sal;
+	 	this.empid=id;
+	 }
+
+	  
+	 
+var vobj=new emp("vijay","redyyy","1000",1234);
+var jobj=new emp("jhon","staton","2000",2367);
+var aobj=new emp("arun","kumar","2000",2367);
+
+ emp.prototype.fullname=function(){
+ 	return this.firstname+" "+this.lastname;	
+ }
+
+ console.log(aobj.fullname());
+
+</script>
+</body>
+</html>

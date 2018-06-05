@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>call_method</title>
+</head>
+<body>
+<script type="text/javascript">
+	var obj={num:10}
+
+	var addtothis=function(a){
+		return this.num+a;
+	}
+	console.log(addtothis.call(obj,20)); 
+	//function_name.call(obj,functionarguments)
+
+
+/* **example on APPLY() ** */
+	var obj2={num:10}
+
+	var addtothis2=function(a,b,c){
+		return this.num+a+b+c;
+	}
+	var arr=[2,3,4];
+	console.log(addtothis2.apply(obj2,arr));
+
+
+/* **example on BIND() ** */
+	var obj3={num:10}
+
+	var addtothis3=function(a,b,c){
+		return this.num+a+b+c;
+	}
+	// var arr=[2,3,4];
+
+	var bound=addtothis3.bind(obj3)
+	console.log(bound(2,3,4));
+
+
+</script>
+</body>
+</html>

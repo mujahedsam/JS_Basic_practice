@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>set timeout</title>
+</head>
+<body>
+<script type="text/javascript">
+
+function validate(){
+ 	 var messege;
+ 	 if(document.digiform.pass.value.length>5){
+ 	 	messege="good "
+ 	 }else{
+ 	 	messege="poor password"
+ 	 }
+
+ 	 document.getElementById("target").innerText=messege;
+ }
+	 
+
+</script>
+ 
+<form name="digiform">
+password here:<input type="password" name="pass" onkeyup="validate()">
+ 
+strength:: <span id="target"></span>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>callbacks</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var x=function(){
+			console.log("i m from the inside func");
+		}
+
+		var m={};
+		console.log(typeof m);
+
+		var y=function(callback){ //called
+			console.log("i m the first func")
+			callback();
+		}
+		y(x); //calling
+	</script>
+</body>
+</html>

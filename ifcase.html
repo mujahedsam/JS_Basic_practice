@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>if case</title>
+</head>
+<body>
+<script type="text/javascript">
+  var empname=prompt("enter emp name");
+  var salary=parseInt(prompt("enter salary "));
+  var exp=parseInt(prompt("enter emp experience"));
+ var hike;
+
+ document.write("<h2>");
+  document.write("emp name  "+empname+"<br>");
+ document.write("emp salary is "+salary+"<br>");
+ document.write("emp  exp is "+exp+"<br>");
+
+if(exp<3){
+	hike=salary*0.3;
+}
+else if(exp<=3 && exp<==6){
+	hike=salary*0.4;
+}else{
+	hike=salary*0.5;
+}
+
+document.write("<br> inreased salary is :"+hike+"<br>");
+document.write("total salary"+(salary+hike)+"<br>");
+</script>
+</body>
+</html>
+
+
+
+ 

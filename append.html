@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>append prac</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	function addition(){
+		var node=document.createElement("li");
+		var mytextnode=document.createTextNode("audi is new item");
+		node.appendChild(mytextnode);
+
+		document.getElementById("carlist").appendChild(node)
+
+	}
+	
+</script>
+
+<ul id="carlist">
+	<li>bmw</li>
+	<li>hundai</li>
+ 
+</ul>
+<button onclick="addition()">add new car</button>
+</body>
+</html>

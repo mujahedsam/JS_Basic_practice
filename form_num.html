@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form number val</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	function validate(){  
+var num=document.digiform.num.value;  
+		if (isNaN(num)){  
+		  document.getElementById("numtarget").innerHTML="Enter Numeric value only";  
+		  return false;  
+		}else{  
+		  return true;  
+		  }  
+} 
+	
+</script>
+
+<form name="digiform" method="post" action="form_val.html" onsubmit="return validate()">
+number: <input type="text" name="num"><span id="numtarget"></span><br>
+
+<input type="submit" name="submit">
+	</form>
+</body>
+</html>
