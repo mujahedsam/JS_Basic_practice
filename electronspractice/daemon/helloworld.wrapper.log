@@ -1,0 +1,65 @@
+2018-03-07 12:15:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-03-07 12:15:25 - Started 11732
+2018-03-13 16:51:05 - Stopping helloworld.exe
+2018-03-13 16:51:05 - ProcessKill 11732
+2018-03-13 16:51:34 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-03-13 16:54:01 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-03-13 16:54:04 - Started 5940
+2018-03-14 10:56:00 - Stopping helloworld.exe
+2018-03-14 10:56:01 - ProcessKill 5940
+2018-03-14 10:56:28 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-03-21 09:29:17 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-03-21 09:29:25 - Started 3104
+2018-03-28 12:40:53 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-03-28 12:41:00 - Started 6668
+2018-03-28 12:44:46 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-03-28 12:44:49 - Started 6352
+2018-04-02 09:19:52 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-02 09:19:57 - Started 6212
+2018-04-08 15:31:01 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-08 15:31:07 - Started 6252
+2018-04-11 14:50:30 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-11 14:50:32 - Started 5532
+2018-04-18 18:52:27 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-18 18:52:28 - Started 5676
+2018-04-23 09:27:32 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-23 09:27:33 - Started 6000
+2018-04-29 17:04:57 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-04-29 17:04:58 - Started 5128
+2018-05-01 12:07:02 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-05-01 12:07:02 - Started 5764
+2018-05-07 10:10:44 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Digital lync-Mahesh\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" --file "D:\My data\electronspractice\helloworld.js" --log "Hello World wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-05-07 10:10:45 - Started 5740
+2018-05-18 10:47:12 - Stopping helloworld.exe
+2018-05-18 10:47:14 - ProcessKill 5740
+2018-05-18 10:47:19 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()

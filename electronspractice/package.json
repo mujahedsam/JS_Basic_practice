@@ -1,0 +1,18 @@
+{
+  "name": "electronspractice",
+  "version": "1.0.0",
+  "description": "to make a reminder app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^1.2.1",
+    "node-notifier": "^5.2.1",
+    "node-windows": "^0.1.14",
+    "opn": "^5.2.0",
+    "window-popup": "^1.1.0"
+  }
+}
